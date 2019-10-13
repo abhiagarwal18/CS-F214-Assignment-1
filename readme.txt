@@ -11,13 +11,13 @@ Question 1 - Findpath
 Queries involve nodes that have been mentioned in the weight data.
 
 Question 2a - sublist 
-None.
+Input elements of list are numbers.
 
 Question 2b - has_triplicate 
-None.
+Input elements of list are numbers.
 
 Question 2c - remove_nth 
-N>0 in the queries.
+N > 0 in the queries.
 
 Question 2d - remove_every_other 
 None.

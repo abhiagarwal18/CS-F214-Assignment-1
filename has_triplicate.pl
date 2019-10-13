@@ -1,4 +1,4 @@
-% _________ has_triplicate( X) _________
+% _________ has_triplicate(X) _________
 % Check if X has 3 or more copies of any element, print element if so.
 
 has_triplicate([]):-false.		% Base Case - X has been exhausted.

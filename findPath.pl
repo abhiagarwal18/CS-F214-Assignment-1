@@ -12,14 +12,14 @@ adjacent(X, Y, W):-
     weight(X, Y, W);
     weight(Y, X, W).
 
-% _________ member( X, Y) _________
+% _________ member(X, Y) _________
 % Check if element X is a member of list Y
 
 member(X, [X|_]).
 member(X, [_|L]):-member(X, L).
 
 % _________ internalPath( X, Y, Path, Taken, L) _________
-% implementation of wrapper findPath, maintains a list, Taken, of nodes covered to
+% implementation of wrapper findPath, maintains a list Taken, of nodes covered to
 % reach current state, in order to prevent cycles.
 
 internalPath(X, X, [X], Taken, 0):-not(member(X, Taken)).	% Base Case - if trivial path reached, check for non-repetition, and accept.
