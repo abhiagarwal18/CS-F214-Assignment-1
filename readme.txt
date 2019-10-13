@@ -13,8 +13,7 @@ swipl -s <file_name>
 ASSUMPTIONS
 
 Question 1 - Findpath
-'weight' fields are filled with valid integer distance values.
-Queries involve nodes that have been mentioned in the weight data.
+'weight' fields are filled with numeric distance values.
 
 Question 2a - sublist 
 None.
