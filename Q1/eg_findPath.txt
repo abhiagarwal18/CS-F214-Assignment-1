@@ -1,4 +1,4 @@
-Test case for findPath(p, r, Path, L) program
+Test cases for findPath(p, r, Path, L) program
 
 
 ?- findPath(a, b,Path,L).
