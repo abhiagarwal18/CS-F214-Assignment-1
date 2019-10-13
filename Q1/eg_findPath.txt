@@ -1,0 +1,32 @@
+Test case for findPath(p, r, Path, L) program
+
+
+?- findPath(a, b,Path,L).
+L = 20,
+Path = [a, b]
+L = 15,
+Path = [a, c, b]
+false
+
+
+?- findPath(a,d,Path,L).
+L = 35,
+Path = [a, b, c, d]
+L = 20,
+Path = [a, c, d]
+false
+   
+
+?- findPath(c,f,Path,L).
+false
+   
+   
+?- findPath(c,c,Path,L).
+L = 0,
+Path = [c]
+false   
+   
+
+?- findPath(j,k,Path,L).
+false
+   
