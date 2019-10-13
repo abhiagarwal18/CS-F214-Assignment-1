@@ -1,6 +1,12 @@
 CS-F214-Assignment-1
 Logic in Computer Science-Prolog Assignment
 
+CONTRIBUTORS -
+CHIRAG CD - 2018A7PS0277P
+R ROHIT - 2018A7PS0224P
+ABHISHEK AGARWAL - 2018A7PS0177P
+PRANJAL SINGH CHAUHAN - 2018A7PS0288P
+
 To execute the programs run the following command in the terminal - 
 swipl -s <file_name>
 
