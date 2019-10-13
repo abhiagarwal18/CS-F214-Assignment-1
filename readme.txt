@@ -11,7 +11,7 @@ Question 1 - Findpath
 Queries involve nodes that have been mentioned in the weight data.
 
 Question 2a - sublist 
-Input elements of list are numbers.
+None.
 
 Question 2b - has_triplicate 
 Input elements of list are numbers.
