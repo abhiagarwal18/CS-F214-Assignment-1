@@ -1,4 +1,4 @@
-% __________ sublist( X, Y)
+% __________ sublist( X, Y) __________
 % sublist( X, Y) checks if list X is a subset of list Y
 % subset - all X elements exist in Y, in the same order.
 
