@@ -1,0 +1,9 @@
+Test Cases for remove_nth(N,X,Y) program
+
+
+?- remove_nth(4,[1,2,3,4,5,6],Y)
+Y = [1, 2, 3, 5, 6]
+
+
+?- remove_nth(8,[1,2,3,4,5,6],Y)
+false 
