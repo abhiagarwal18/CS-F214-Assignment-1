@@ -5,7 +5,7 @@ weight(a, c, 10).
 weight(c, d, 10).
 weight(e, f, 10).
 
-% _________ adjacent( X, Y, W) _________
+% _________ adjacent(X, Y, W) _________
 % Check if X and Y are directly connected. If so, give W, connection weight
 
 adjacent(X, Y, W):-
@@ -18,7 +18,7 @@ adjacent(X, Y, W):-
 member(X, [X|_]).
 member(X, [_|L]):-member(X, L).
 
-% _________ internalPath( X, Y, Path, Taken, L) _________
+% _________ internalPath(X, Y, Path, Taken, L) _________
 % implementation of wrapper findPath, maintains a list Taken, of nodes covered to
 % reach current state, in order to prevent cycles.
 
@@ -29,7 +29,7 @@ internalPath(X, Y, [X|Path], Taken, L):-
     internalPath(Z, Y, Path, [X|Taken], L_inner),		% Find subsidiary path, that does not pass through X.
     L is L_inner+W.						% Update L.
 
-% _________ findPath( X, Y, Path, L) _________
+% _________ findPath(X, Y, Path, L) _________
 % Provide Path and length L, between X and Y, using weight data
 
 findPath(X, Y, Path, L):-internalPath(X, Y, Path, [], L).	% Provide wrapper findPath for internalPath.

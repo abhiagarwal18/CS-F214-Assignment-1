@@ -8,7 +8,7 @@ has_triplicate([X|L]):-			% Logic - For each element,
     (C>1 ->  (write(X), nl);true),	% If count shows triplicate, print, else continue anyway.
     has_triplicate(New_L).		% Check for remaining elements.
 
-% _________ delete_all( X, Y, Z, C) _________
+% _________ delete_all(X, Y, Z, C) _________
 % Delete all occurrences of X from Y, store the result in Z. Also count occurrences in C.
 
 delete_all(_, [], [], 0).									% Base Case - Y has been completely parsed.
