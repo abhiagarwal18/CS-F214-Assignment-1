@@ -2,7 +2,7 @@ CS-F214-Assignment-1
 Logic in Computer Science-Prolog Assignment
 
 CONTRIBUTORS -
-CHIRAG CD - 2018A7PS0277P
+CHIRAG C D - 2018A7PS0277P
 R ROHIT - 2018A7PS0224P
 ABHISHEK AGARWAL - 2018A7PS0177P
 PRANJAL SINGH CHAUHAN - 2018A7PS0288P
@@ -19,12 +19,10 @@ Question 2a - sublist
 None.
 
 Question 2b - has_triplicate 
-Input elements of list are numbers.
+None.
 
 Question 2c - remove_nth 
 N > 0 in the queries.
 
 Question 2d - remove_every_other 
 None.
-
-
