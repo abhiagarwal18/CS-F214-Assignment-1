@@ -13,4 +13,5 @@ has_triplicate([X|L]):-			% Logic - For each element,
 
 delete_all(_, [], [], 0).									% Base Case - Y has been completely parsed.
 delete_all(X, [X|Y], Z, C):- delete_all(X, Y, Z, C_inner), C is C_inner+1.			% If occurrence found, increment C, skip X, continue.
-delete_all(X, [Y|Y_Cont], [Y|Z_Cont], C):- X=\=Y, delete_all(X, Y_Cont, Z_Cont, C).		% If not an occurrence, continue.
+delete_all(X, [Y|Y_Cont], [Y|Z_Cont], C):- not(X=Y), delete_all(X, Y_Cont, Z_Cont, C).		% If not an occurrence, continue.
+
